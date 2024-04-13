@@ -1,0 +1,98 @@
+p{
+    color:#f0f0f0;
+}
+h2{
+    color:#f0f0f0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("pic.jfif");
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.shortener {
+    margin-top: 20px;
+}
+
+.shortener h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.shortener form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.shortener .input-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.shortener label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.shortener input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.shortener button[type="submit"] {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.tracking {
+    margin-top: 20px;
+}
+
+.tracking h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.tracking p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
